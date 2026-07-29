@@ -1,0 +1,91 @@
+# Internet Shutdowns in the Era of Digital India
+
+## What I aimed to accomplish
+
+My main objective for this project was to find the country with the highest number of internet shutdowns over the past decade, and to provide context as to where these events have been the most concentrated and what has triggered them. I decided to use the STOP dataset from Access Now to accomplish this, which has documented global internet shutdowns from 2016–2025, and paired this with articles detailing certain shutdowns that, based on my data analysis, appeared to have significant impact on shutdown hotspots and/or had unique aspects that distinguished them from other shutdowns in these areas.
+
+---
+
+## Brief overview of key findings
+
+I found that India has the highest frequency of internet shutdowns out of the 100 countries documented in Access Now's STOP dataset from 2016–2025, and that its shutdowns are primarily concentrated in Jammu and Kashmir (J&K), Rajasthan, and Manipur. These hotspots make up over 600 of the 900+ shutdowns recorded in the dataset, and each region experienced them under different circumstances and for different lengths.
+
+I learned that J&K has the highest number of shutdowns of the three, undergoing one of the longest recorded shutdowns in a democracy after losing autonomy in 2019, and that Rajasthan's are much shorter and sporadic and are typically imposed during violence, protests, and exams, while Manipur's shutdowns only skyrocketed after ethnic tensions spiraled into violent clashes in 2023.
+
+Across these locations, state and local governments were the main implementers of the shutdowns, which greatly affected the nation's economy, education, healthcare access, and more. The growth of these shutdowns also coincided with Modi's *Digital India* initiative, which began in 2015 and has increased the use of the internet across the nation, making these shutdowns all the more impactful.
+
+---
+
+## Data collection process
+
+The quantitative data used in this project and featured in my report comes from the Access Now STOP dataset, specifically its 2016–2025 combined tab in its publicly available Excel sheet. I then converted the specific tab into a CSV and used Python and Pandas in Jupyter Notebook to analyze my data.
+
+I also referenced World Bank data for **"Individuals Using the Internet (% of population) – India"** to compare the growth of internet usage throughout the country to the increase in internet shutdowns. I also collected articles detailing the impact of certain shutdown events in the three regions I focused on for this assignment.
+
+### Links for data collection process
+
+#### Digital India
+
+- Modi X post 1: https://x.com/narendramodi/status/2072160769328951342
+- Modi X post 2: https://x.com/narendramodi/status/2072161019548565929
+
+#### Dataset and Definitions
+
+- Internet Shutdown definition: https://www.weforum.org/stories/cybersecurity/internet-shutdowns-explainer/
+- Access Now STOP dataset description: https://www.accessnow.org/campaign/keepiton/#global-tracker
+- Access Now 2025 review: https://www.accessnow.org/internet-shutdowns-2025/
+
+#### Population Data
+
+- India projected population: https://worldpopulationreview.com/countries/india
+- Jammu & Kashmir projected population: https://statisticstimes.com/demographics/india/jammu-and-kashmir-population.php
+- Rajasthan projected population: https://statisticstimes.com/demographics/india/rajasthan-population.php
+- Manipur projected population: https://statisticstimes.com/demographics/india/manipur-population.php
+
+#### Background Information
+
+- J&K background: https://www.britannica.com/place/Jammu-and-Kashmir
+- Rajasthan background: https://www.britannica.com/place/Rajasthan
+- Manipur background: https://www.britannica.com/place/Manipur
+
+#### Articles and Reports
+
+- IFRI: https://www.ifri.org/sites/default/files/2025-02/ifri_aijaz_wani_av146_jammu_kashmir_2025_0.pdf
+- BBC: https://www.bbc.com/news/world-asia-india-49234708
+- Reuters (Kashmir): https://www.reuters.com/world/living-stone-age-offline-18-months-indian-kashmir--trfn-2022-09-29/
+- Access Now on J&K 2019 shutdown: https://www.accessnow.org/after-a-partial-restoration-of-internet-access-in-jammu-kashmir-access-now-urges-full-access/
+- United Nations: https://news.un.org/en/story/2019/08/1044741
+- Indian Express: https://indianexpress.com/article/india/ahead-of-nov-1-gujjar-stir-internet-suspended-in-parts-of-rajasthan-6910677/lite/
+- Gurjar World: https://gurjarworld.org/gurjar-history/
+- Access Now on exam shutdowns: https://www.accessnow.org/india-cuts-internet-access-for-school-exams-doubles-down-on-rights-harming-shutdowns/
+- CNN: https://edition.cnn.com/2021/09/28/tech/india-rajasthan-reet-exam-internet-shutdown-intl-hnk
+- MediaNama (2021): https://www.medianama.com/2021/09/223-internet-shutdown-rajasthan-exam/
+- MediaNama (2023): https://www.medianama.com/2023/02/223-internet-shutdowns-rajasthan-haryana/
+- MediaNama (2024): https://www.medianama.com/2024/01/223-rajasthan-govt-internet-shutdown-rpsc-exam-cheating/
+- Al Jazeera: https://www.aljazeera.com/features/2026/4/22/why-is-indias-manipur-burning-for-three-years
+- SFLC: https://sflc.in/a-trend-of-long-internet-shutdowns-in-india-the-manipur-crisis/
+- ADVOX: https://advox.globalvoices.org/2025/01/06/indias-internet-shutdown-crisis-a-growing-threat-to-digital-rights/
+- TIME Magazine: https://time.com/6304719/india-internet-shutdowns-manipur/
+- Reuters (Manipur): https://www.reuters.com/article/india-internet-women-idUSL8N39B0AR/
+
+---
+
+## New skills, approaches, etc. I used and where I grew the most during this project
+
+- **How to merge dataframes:** I had never attempted to merge dataframes before, and it required me to analyze my data and use Pandas meticulously to decide what to merge and how to do it properly.
+
+- **How to remove and discover duplicates in a big dataset:** While browsing the STOP dataset I noticed duplicate reports for shutdowns, so I learned how to remove them in Jupyter. This taught me the importance of manually checking datasets before diving into code to avoid inaccurate responses.
+
+- **Handling big/messy datasets:** This was the biggest dataset I've used thus far, and there were many things that forced me to rethink how I would code it and analyze my data, as well as push me to narrow my focus for my story. Overall, this made me much more attentive to what I was recording and using in my report.
+
+- **Learned how to pinpoint issues/vague areas in datasets:** Besides duplicates, there were some unclear parts of the data I discovered while coding, like finding areas with the most frequent shutdowns versus areas with the longest shutdowns, given that some shutdowns were considered one event but recorded separately due to changes in the shutdown.
+
+- **Illustrator and scrollytelling:** I had wanted to apply my visual skills more in previous projects but did not have the time. I was able to use both scrollytelling and Illustrator for this project.
+
+- **Using a second dataset:** In my previous projects I had wanted to include an additional dataset but struggled to find one during the timeframe I had. For this project, I found two (I originally had one for NSDP that is still in my notebook) and chose to use the World Bank CSV mentioned above.
+
+---
+
+## What I tried to do but did not have the skill or time to do
+
+I didn't have time to find many other datasets to incorporate besides the World Bank dataset that I included in my final draft of my report. I wanted to include TRAI Telecom Subscription Data reports, but learned they were divided into monthly PDFs, which became too time-consuming by the time this project was due. If I had more time, I would like to have used this dataset.
