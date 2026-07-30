@@ -2,23 +2,23 @@
 
 ## What I aimed to accomplish
 
-My main objective for this project was to find the country with the highest number of internet shutdowns over the past decade, and to provide context as to where these events have been the most concentrated and what has triggered them. I decided to use the STOP dataset from Access Now to accomplish this, which has documented global internet shutdowns from 2016–2025, and paired this with articles detailing certain shutdowns that, based on my data analysis, appeared to have significant impact on shutdown hotspots and/or had unique aspects that distinguished them from other shutdowns in these areas.
+My main objective for this project was to find the country with the highest number of internet shutdowns over the past decade, and to provide context as to where these events have been the most concentrated and what has triggered them. I decided to use the STOP dataset from Access Now to accomplish this, which has documented global internet shutdowns from 2016–2025. I paired this with articles detailing certain shutdowns that, based on my data analysis, appeared to have significant impact on shutdown hotspots and/or had unique aspects that distinguished them from other shutdowns in these areas.
 
 ---
 
 ## Brief overview of key findings
 
-I found that India has the highest frequency of internet shutdowns out of the 100 countries documented in Access Now's STOP dataset from 2016–2025, and that its shutdowns are primarily concentrated in Jammu and Kashmir (J&K), Rajasthan, and Manipur. These hotspots make up over 600 of the 900+ shutdowns recorded in the dataset, and each region experienced them under different circumstances and for different lengths.
+I found that India has the highest frequency of internet shutdowns out of the 100 countries documented in Access Now's STOP dataset from 2016–2025, and that its shutdowns are primarily concentrated in Jammu and Kashmir (J&K), Rajasthan and Manipur. These hotspots make up over 600 of the 920 shutdowns recorded in the dataset, and each region experienced them under different circumstances and for different lengths.
 
-I learned that J&K has the highest number of shutdowns of the three, undergoing one of the longest recorded shutdowns in a democracy after losing autonomy in 2019, and that Rajasthan's are much shorter and sporadic and are typically imposed during violence, protests, and exams, while Manipur's shutdowns only skyrocketed after ethnic tensions spiraled into violent clashes in 2023.
+I learned that J&K has the highest number of shutdowns of the three, undergoing one of the longest recorded shutdowns in a democracy after losing autonomy in 2019, and that Rajasthan's are much shorter and sporadic and are typically imposed during violence, protests and exams, while Manipur's shutdowns only skyrocketed after ethnic tensions spiraled into violent clashes in 2023.
 
-Across these locations, state and local governments were the main implementers of the shutdowns, which greatly affected the nation's economy, education, healthcare access, and more. The growth of these shutdowns also coincided with Modi's *Digital India* initiative, which began in 2015 and has increased the use of the internet across the nation, making these shutdowns all the more impactful.
+Across these locations, state and local governments were the main implementers of the shutdowns, which greatly affected the nation's economy, education, healthcare access and more. The growth of these shutdowns also coincided with Modi's *Digital India* initiative, which began in 2015 and has increased the use of the internet across the nation, making these shutdowns all the more impactful.
 
 ---
 
 ## Data collection process
 
-The quantitative data used in this project and featured in my report comes from the Access Now STOP dataset, specifically its 2016–2025 combined tab in its publicly available Excel sheet. I then converted the specific tab into a CSV and used Python and Pandas in Jupyter Notebook to analyze my data.
+The quantitative data used in this project and featured in my report comes from the Access Now STOP dataset, specifically its 2016–2025 combined sheet. I then converted this into a CSV and used Python and Pandas in Jupyter Notebook to analyze my data.
 
 I also referenced World Bank data for **"Individuals Using the Internet (% of population) – India"** to compare the growth of internet usage throughout the country to the increase in internet shutdowns. I also collected articles detailing the impact of certain shutdown events in the three regions I focused on for this assignment.
 
@@ -73,8 +73,6 @@ I also referenced World Bank data for **"Individuals Using the Internet (% of po
 ## New skills, approaches, etc. I used and where I grew the most during this project
 
 - **How to merge dataframes:** I had never attempted to merge dataframes before, and it required me to analyze my data and use Pandas meticulously to decide what to merge and how to do it properly.
-
-- **How to remove and discover duplicates in a big dataset:** While browsing the STOP dataset I noticed duplicate reports for shutdowns, so I learned how to remove them in Jupyter. This taught me the importance of manually checking datasets before diving into code to avoid inaccurate responses.
 
 - **Handling big/messy datasets:** This was the biggest dataset I've used thus far, and there were many things that forced me to rethink how I would code it and analyze my data, as well as push me to narrow my focus for my story. Overall, this made me much more attentive to what I was recording and using in my report.
 

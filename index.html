@@ -47,7 +47,7 @@
   .tweet-img-frame { width: 100%; height: 340px; overflow: hidden; border: 1px solid var(--gridline); border-radius: 10px; box-shadow: 0 6px 24px rgba(0,0,0,0.08); background: #fff; display: flex; align-items: center; justify-content: center; }
   .tweet-figure img { width: 100%; height: 100%; object-fit: contain; display: block; }
   .tweet-missing { width: 100%; min-height: 260px; display: flex; align-items: center; justify-content: center; text-align: center; background: var(--placeholder-bg); border: 1px dashed var(--placeholder-border); border-radius: 10px; padding: 20px; font-size: 13px; color: var(--text-secondary); }
-  .tweet-caption { font-size: 12px; color: var(--muted); margin-top: 8px; font-style: italic; max-width: var(--content-width); margin-left: auto; margin-right: auto; text-align: center; }
+  .tweet-caption { font-size: 12px; color: var(--muted); margin-top: 8px; margin-bottom: 20px; font-style: italic; max-width: var(--content-width); margin-left: auto; margin-right: auto; text-align: center; }
 
   .section { max-width: var(--content-width); margin: 0 auto; padding: 20px 20px; }
   .concentration-title { font-size: 24px; font-weight: 800; color: var(--series-1); margin: 0; line-height: 1.3; text-align: center; }
@@ -55,9 +55,20 @@
   .chart-embed { max-width: var(--content-width); margin: 20px auto; background: #fff; border: 1px solid var(--gridline); border-radius: 10px; box-shadow: 0 6px 24px rgba(0,0,0,0.08); padding: 16px; }
   .chart-placeholder { background: var(--placeholder-bg); border: 1px dashed var(--placeholder-border); border-radius: 10px; padding: 20px; font-size: 13px; color: var(--text-secondary); margin: 20px auto; max-width: var(--content-width); }
 
-  .info-box { background: rgba(232,220,201,0.5); border: 1px solid var(--gridline); border-radius: 10px; padding: 20px 24px; font-size: 14.5px; line-height: 1.6; color: var(--text-primary); max-width: var(--content-width); margin: 0 auto; }
-  .info-box p { margin: 0 0 12px; }
-  .info-box p:last-child { margin-bottom: 0; }
+  .methodology-box {
+    background: rgba(232,231,227,0.45);
+    color: #000;
+    border-radius: 10px;
+    padding: 20px 24px;
+    font-size: 14px;
+    line-height: 1.6;
+    max-width: var(--content-width);
+    margin: 0 auto;
+    backdrop-filter: blur(1px);
+  }
+  .methodology-box p { margin: 0 0 12px; }
+  .methodology-box p:last-child { margin-bottom: 0; }
+  .methodology-box a { color: #000; }
 
   .scroll-wrap { position: relative; }
   .concentration-title-sticky { position: sticky; top: 0; z-index: 5; background: var(--page); padding: 20px 20px 12px; }
@@ -119,17 +130,17 @@
       </div>
       </figure>
     </div>
-    <div class="tweet-caption">Photos: The images display Prime Minister Modi’s posts to X celebrating 11 years of Digital India on July 1, 2026.</div>
+    <div class="tweet-caption">Photos: The images display Prime Minister Modi’s posts to X celebrating 11 years of Digital India.</div>
 
     <div class="body-copy">In the years following the implementation of Digital India, the number of internet users in the country have grown significantly, reflecting the importance connectivity plays in India’s society today.</div>
 
     <div class="chart-embed"><iframe title="Internet Users Increased by over 50% from 2015 - 2025" aria-label="Bar Chart" id="datawrapper-chart-zJap8" src="https://datawrapper.dwcdn.net/zJap8/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="373" data-external="1"></iframe><script type="text/javascript">(function(){function e(){window.addEventListener("message",function(e){if(e.data["datawrapper-height"]!==void 0){var t=document.querySelectorAll("iframe");for(var n in e.data["datawrapper-height"])for(var r=0,i;i=t[r];r++)if(i.contentWindow===e.source){var a=e.data["datawrapper-height"][n]+"px";i.style.height=a}}})}e()})();</script></div>
 
-    <div class="body-copy">Despite these digital strides, India has one of the world’s highest rates of <a href="https://www.weforum.org/stories/cybersecurity/internet-shutdowns-explainer/" target="_blank" rel="noopener">internet shutdowns</a>, which are intentional disruptions to internet access and digital communications.</div>
+    <div class="body-copy">Despite these digital strides, India has one of the world’s highest rates of <a href="https://www.weforum.org/stories/cybersecurity/internet-shutdowns-explainer/" target="_blank" rel="noopener">internet shutdowns</a>, which are the intentional disruptions to internet access and digital communications.</div>
 
-    <div class="body-copy">At the time of this report, over 900 shutdowns have occurred in the country, amounting to an estimated 8,804 days of partial or fully restricted internet access since 2016, a trend that stands in stark contrast to Digital India’s emphasis on nationwide connectivity.</div>
+    <div class="body-copy">At the time of this report, over 900 partial or full internet shutdowns have occurred in the country since 2016, a trend that stands in stark contrast to Digital India’s emphasis on nationwide connectivity.</div>
 
-    <div class="body-copy">These numbers come from <a href="https://www.accessnow.org/campaign/keepiton/#global-tracker" target="_blank" rel="noopener">Access Now’s</a> Shutdown Tracker Optimization Project (STOP), which documents internet shutdowns across <a href="https://www.accessnow.org/internet-shutdowns-2025/" target="_blank" rel="noopener">100 countries</a>. Their data also shows that India has undergone more individual shutdowns than any country it has tracked, and that nearly 70% of them have occurred in just 3 regions over the last decade.</div>
+    <div class="body-copy">These numbers come from <a href="https://www.accessnow.org/campaign/keepiton/#global-tracker" target="_blank" rel="noopener">Access Now’s</a> Shutdown Tracker Optimization Project (STOP), which documents internet shutdowns across <a href="https://www.accessnow.org/internet-shutdowns-2025/" target="_blank" rel="noopener">100 countries</a>. Their data also shows that India has undergone more shutdowns than any country it has tracked, and that nearly 70% of them have occurred in just 3 regions over the last decade.</div>
   </div>
 
   <div class="scroll-wrap">
@@ -165,15 +176,15 @@
   <div class="section">
     <div class="headline">How do internet shutdowns work in India?</div>
     <div class="body-copy">According to Access Now, internet shutdowns are often implemented by governments to restrict the flow of information and to silence, punish or stoke fear in certain communities.</div>
-    <div class="body-copy">In India, the two main causes for these shutdowns, protests and political instability, account for 47% of the country’s 907 shutdowns recorded in the STOP dataset when summed together.</div>
+    <div class="body-copy">In India, the two main causes for these shutdowns, protests and political instability, account for about 47% of the country’s 920 shutdowns recorded in the STOP dataset.</div>
 
-    <div class="chart-embed"><iframe title="Protests and Political Instability Fuel India's Shutdowns" aria-label="Bar Chart" id="datawrapper-chart-JdV3e" src="https://datawrapper.dwcdn.net/JdV3e/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="516" data-external="1"></iframe><script type="text/javascript">(function(){function e(){window.addEventListener("message",function(e){if(e.data["datawrapper-height"]!==void 0){var t=document.querySelectorAll("iframe");for(var n in e.data["datawrapper-height"])for(var r=0,i;i=t[r];r++)if(i.contentWindow===e.source){var a=e.data["datawrapper-height"][n]+"px";i.style.height=a}}})}e()})();</script></div>
+    <div class="chart-embed"><iframe title="Protests and Political Instability Fuel India's Shutdowns" aria-label="Bar Chart" id="datawrapper-chart-JdV3e" src="https://datawrapper.dwcdn.net/JdV3e/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="516" data-external="1"></iframe><script type="text/javascript">(function(){function e(){window.addEventListener("message",function(e){if(e.data["datawrapper-height"]!==void 0){var t=document.querySelectorAll("iframe");for(var n in e.data["datawrapper-height"])for(var r=0,i;i=t[r];r++)if(i.contentWindow===e.source){var a=e.data["datawrapper-height"][n]+"px";i.style.height=a}}})}e()})();</script></div>
 
     <div class="body-copy">The government justifications used for implementing these shutdowns tend to differ in language from the true causes behind them, framing their decisions in a more forward-looking and preventative way.</div>
 
-    <div class="chart-embed"><iframe title="Harmful Content and Public Safety Top Government Justifications" aria-label="Table" id="datawrapper-chart-vJ6TM" src="https://datawrapper.dwcdn.net/vJ6TM/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="412" data-external="1"></iframe><script type="text/javascript">(function(){function e(){window.addEventListener("message",function(e){if(e.data["datawrapper-height"]!==void 0){var t=document.querySelectorAll("iframe");for(var n in e.data["datawrapper-height"])for(var r=0,i;i=t[r];r++)if(i.contentWindow===e.source){var a=e.data["datawrapper-height"][n]+"px";i.style.height=a}}})}e()})();</script></div>
+    <div class="chart-embed"><iframe title="Harmful Content and Public Safety Top Government Justifications" aria-label="Table" id="datawrapper-chart-vJ6TM" src="https://datawrapper.dwcdn.net/vJ6TM/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="412" data-external="1"></iframe><script type="text/javascript">(function(){function e(){window.addEventListener("message",function(e){if(e.data["datawrapper-height"]!==void 0){var t=document.querySelectorAll("iframe");for(var n in e.data["datawrapper-height"])for(var r=0,i;i=t[r];r++)if(i.contentWindow===e.source){var a=e.data["datawrapper-height"][n]+"px";i.style.height=a}}})}e()})();</script></div>
 
-    <div class="body-copy">The authorities who order these shutdowns and provide these justifications are most often the state and local governments of the affected regions, with state authorities responsible for an estimated 504 shutdown operations and local governments accounting for 275 of them. Together, they make up 86% of shutdown initiators recorded in the dataset, while the executive government has only been responsible for 17 shutdowns.</div>
+    <div class="body-copy">The authorities who order these shutdowns and provide these justifications are most often the state and local governments of the affected regions, with state authorities responsible for an estimated 512 shutdown operations and local governments accounting for 276 of them. Together, they make up about 86% of shutdown initiators recorded in the dataset, while the executive government has only been responsible for 24 shutdowns.</div>
 
     <div class="body-copy">These national patterns do not look the same for every state or union territory, though, with the three internet shutdown hotspots experiencing these events under very different circumstances.</div>
   </div>
@@ -181,13 +192,13 @@
   <div class="section">
     <div class="headline">Jammu and Kashmir Shutdowns: Prolonged and Persistent</div>
 
-    <div class="body-copy"><a href="https://www.britannica.com/place/Jammu-and-Kashmir" target="_blank" rel="noopener">Jammu and Kashmir</a> (J&K) is a union territory located in the Himalayas and is home to a projected population of just under <a href="https://statisticstimes.com/demographics/india/jammu-and-kashmir-population.php" target="_blank" rel="noopener">14 million residents</a>. Since 2016, Access Now has recorded an estimated 462 internet shutdowns in the region, which has been the source of a decades long territory dispute between India and Pakistan.</div>
+    <div class="body-copy"><a href="https://www.britannica.com/place/Jammu-and-Kashmir" target="_blank" rel="noopener">Jammu and Kashmir</a> (J&amp;K) is a union territory located in the Himalayas and is home to a projected population of just under <a href="https://statisticstimes.com/demographics/india/jammu-and-kashmir-population.php" target="_blank" rel="noopener">14 million residents</a>. Since 2016, Access Now has recorded an estimated 468 internet shutdowns in the region, which has been the source of a decades long territory dispute between India and Pakistan.</div>
 
-    <div class="body-copy">Until 2019, J&K was long considered a semi-autonomous state due to these territorial disagreements. That year, on <a href="https://www.ifri.org/sites/default/files/2025-02/ifri_aijaz_wani_av146_jammu_kashmir_2025_0.pdf" target="_blank" rel="noopener">August 5</a>, India's government announced its decision to <a href="https://www.bbc.com/news/world-asia-india-49234708" target="_blank" rel="noopener">strip</a> its portion of the region’s special status to integrate it more into the country, which Modi and his Bharatiya Janata Party (BJP) claimed would improve J&K’s development.</div>
+    <div class="body-copy">Until 2019, J&K was long considered a semi-autonomous state due to these territorial disagreements. That year, on <a href="https://www.ifri.org/sites/default/files/2025-02/ifri_aijaz_wani_av146_jammu_kashmir_2025_0.pdf" target="_blank" rel="noopener">August 5</a>, India's government announced its decision to <a href="https://www.bbc.com/news/world-asia-india-49234708" target="_blank" rel="noopener">strip</a> its portion of the region’s special status to integrate it more into the country, which Modi and the Bharatiya Janata Party (BJP) claimed would improve J&amp;K’s development.</div>
 
     <div class="body-copy">As this decision was being passed, J&K entered into what would become one of the longest internet shutdown <a href="https://www.reuters.com/world/living-stone-age-offline-18-months-indian-kashmir--trfn-2022-09-29/" target="_blank" rel="noopener">periods</a> ever recorded in a democracy, with the entire region being placed in a total blackout for 6 months. In January 2020, the region received 2G data, putting it in a partial shutdown until February 2021 when 4G was reinstalled, making the entire event <a href="https://www.accessnow.org/after-a-partial-restoration-of-internet-access-in-jammu-kashmir-access-now-urges-full-access/" target="_blank" rel="noopener">18 months</a> long.</div>
 
-    <div class="chart-embed"><iframe title="Jammu and Kashmir Leads India in Shutdown Frequency" aria-label="Bar Chart" id="datawrapper-chart-YKZzF" src="https://datawrapper.dwcdn.net/YKZzF/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="349" data-external="1"></iframe><script type="text/javascript">(function(){function e(){window.addEventListener("message",function(e){if(e.data["datawrapper-height"]!==void 0){var t=document.querySelectorAll("iframe");for(var n in e.data["datawrapper-height"])for(var r=0,i;i=t[r];r++)if(i.contentWindow===e.source){var a=e.data["datawrapper-height"][n]+"px";i.style.height=a}}})}e()})();</script></div>
+    <div class="chart-embed"><iframe title="Jammu and Kashmir Leads India in Shutdown Frequency" aria-label="Bar Chart" id="datawrapper-chart-YKZzF" src="https://datawrapper.dwcdn.net/YKZzF/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="349" data-external="1"></iframe><script type="text/javascript">(function(){function e(){window.addEventListener("message",function(e){if(e.data["datawrapper-height"]!==void 0){var t=document.querySelectorAll("iframe");for(var n in e.data["datawrapper-height"])for(var r=0,i;i=t[r];r++)if(i.contentWindow===e.source){var a=e.data["datawrapper-height"][n]+"px";i.style.height=a}}})}e()})();</script></div>
 
     <div class="body-copy">Information received by the <a href="https://news.un.org/en/story/2019/08/1044741" target="_blank" rel="noopener">United Nations</a> during the start of the shutdown suggested that journalists, human rights defenders, protesters and other residents were arrested, with its experts calling the shutdown a form of collective punishment and these detentions human rights violations.</div>
 
@@ -195,13 +206,13 @@
 
     <div class="body-copy">Today, the region’s overall development continues to be hindered as shutdowns and communication restrictions persist.</div>
 
-    <div class="body-copy">Currently, J&K remains in another record long shutdown, this time, in the form of a communications blockade. The region lost 14 messaging apps in May 2023, and, according to the STOP dataset, this was to control information in the area, although the government claims it is for national security and counter-terrorism efforts.</div>
+    <div class="body-copy">Currently, J&K remains in another record long shutdown, this time, in the form of a communications blockade. The region lost 14 messaging apps in May 2023, and, according to the STOP dataset, this was to control information in the area, although the government claim it is for national security and counter-terrorism efforts.</div>
   </div>
 
   <div class="section">
     <div class="headline">Rajasthan Shutdowns: Short and Sporadic</div>
 
-    <div class="body-copy"><a href="https://www.britannica.com/place/Rajasthan" target="_blank" rel="noopener">Rajasthan</a> is located in the northwest part of India and has a projected population just shy of <a href="https://statisticstimes.com/demographics/india/rajasthan-population.php" target="_blank" rel="noopener">84 million</a> people. It has experienced an estimated 77 shutdowns to date, making it the region with the second highest frequency. Unlike J&K, Rajasthan’s shutdowns are much shorter and not as frequent, lasting an average of less than 3 days.</div>
+    <div class="body-copy"><a href="https://www.britannica.com/place/Rajasthan" target="_blank" rel="noopener">Rajasthan</a> is located in the northwest part of India and has a projected population just shy of <a href="https://statisticstimes.com/demographics/india/rajasthan-population.php" target="_blank" rel="noopener">84 million</a> people. It has experienced an estimated 77 shutdowns to date, making it the region with the second highest frequency. Unlike J&amp;K, Rajasthan’s shutdowns are much shorter and not as frequent, lasting an average of less than 3 days.</div>
 
     <div class="body-copy">Its longest shutdown event recorded by Access Now began on October 30, 2020 and ended on November 12, lasting a total of 14 days across four districts: Bharatpur, Karauli, Jaipur and Sawai Madhopur.</div>
 
@@ -223,19 +234,19 @@
   <div class="section">
     <div class="headline">Manipur Shutdowns: Conflict and Control</div>
 
-    <div class="body-copy"><a href="https://www.britannica.com/place/Manipur" target="_blank" rel="noopener">Manipur</a> is a state in the northeastern part of India that is projected to be home to about <a href="https://statisticstimes.com/demographics/india/manipur-population.php" target="_blank" rel="noopener">3.3 million</a> people. The region has undergone intense <a href="https://www.aljazeera.com/features/2026/4/22/why-is-indias-manipur-burning-for-three-years" target="_blank" rel="noopener">ethnic conflicts</a> since 2023, and accounts for 74 of India’s shutdowns since 2016, ranking third amongst the areas with highest frequency rates.</div>
+    <div class="body-copy"><a href="https://www.britannica.com/place/Manipur" target="_blank" rel="noopener">Manipur</a> is a state in the northeastern part of India that is projected to be home to about <a href="https://statisticstimes.com/demographics/india/manipur-population.php" target="_blank" rel="noopener">3.3 million</a> people. The region has undergone intense <a href="https://www.aljazeera.com/features/2026/4/22/why-is-indias-manipur-burning-for-three-years" target="_blank" rel="noopener">ethnic conflicts</a> since 2023, and accounts for 75 of India’s shutdowns since 2016, ranking third amongst the areas with highest frequency rates.</div>
 
-    <div class="body-copy">In 2023, the region saw its largest spike in internet shutdowns, with Access Now having recorded 47 events that year. Before this, Manipur had only experienced one to two shutdowns a year, if any, since Access Now began recording it.</div>
+    <div class="body-copy">In 2023, the region saw its largest spike in internet shutdowns, with Access Now having recorded 48 events that year. Before this, Manipur had only experienced one to two shutdowns a year, if any, since Access Now began recording it.</div>
 
-    <div class="chart-embed"><iframe title="Manipur Experienced 47 Shutdowns in 2023" aria-label="Column Chart" id="datawrapper-chart-coRlF" src="https://datawrapper.dwcdn.net/coRlF/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="454" data-external="1"></iframe><script type="text/javascript">(function(){function e(){window.addEventListener("message",function(e){if(e.data["datawrapper-height"]!==void 0){var t=document.querySelectorAll("iframe");for(var n in e.data["datawrapper-height"])for(var r=0,i;i=t[r];r++)if(i.contentWindow===e.source){var a=e.data["datawrapper-height"][n]+"px";i.style.height=a}}})}e()})();</script></div>
+    <div class="chart-embed"><iframe title="Manipur Experienced 48 Shutdowns in 2023" aria-label="Column Chart" id="datawrapper-chart-coRlF" src="https://datawrapper.dwcdn.net/coRlF/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="454" data-external="1"></iframe><script type="text/javascript">(function(){function e(){window.addEventListener("message",function(e){if(e.data["datawrapper-height"]!==void 0){var t=document.querySelectorAll("iframe");for(var n in e.data["datawrapper-height"])for(var r=0,i;i=t[r];r++)if(i.contentWindow===e.source){var a=e.data["datawrapper-height"][n]+"px";i.style.height=a}}})}e()})();</script></div>
 
-    <div class="body-copy">This rise coincided with the timing of the ethnic clashes between the Meitei and Kuki communities, which escalated immensely on May 3, 2023. This date also marked the start of a total internet shutdown that lasted over <a href="https://sflc.in/a-trend-of-long-internet-shutdowns-in-india-the-manipur-crisis/" target="_blank" rel="noopener">100 days</a>, with some sources reporting that it continued until <a href="https://advox.globalvoices.org/2025/01/06/indias-internet-shutdown-crisis-a-growing-threat-to-digital-rights/" target="_blank" rel="noopener">December 2023.</a></div>
+    <div class="body-copy">This rise coincided with the timing of the ethnic clashes between the Meitei and Kuki communities, which spiraled into violent clashes on May 3, 2023. This date also marked the start of a total internet shutdown that lasted over 200 days, with some sources reporting that it continued until <a href="https://advox.globalvoices.org/2025/01/06/indias-internet-shutdown-crisis-a-growing-threat-to-digital-rights/" target="_blank" rel="noopener">December 2023.</a></div>
 
     <div class="body-copy">The <a href="https://sflc.in/a-trend-of-long-internet-shutdowns-in-india-the-manipur-crisis/" target="_blank" rel="noopener">SFLC</a> said that this shutdown, which remains one of the longest recorded in the country, impacted peoples’ ability to pay rent, register for exams, access educational resources and complete their daily work.</div>
 
     <div class="body-copy">The shutdown also kept the reality of the violence in Manipur hidden from the public, with much of India and the world unaware of the extent of the violence for weeks. According to <a href="https://time.com/6304719/india-internet-shutdowns-manipur/" target="_blank" rel="noopener">TIME</a>, many heard of it for the first time nearly 80 days after the clashes began when a video of two unclothed Kuki women being paraded around the streets by armed Meitei men was released.</div>
 
-    <div class="body-copy">The recording, which was discovered to have been taken on May 4, sparked global outrage. In light of the footage and ongoing shutdown, <a href="https://www.reuters.com/article/india-internet-women-idUSL8N39B0AR/" target="_blank" rel="noopener">Reuters</a> published an article detailing the impact the internet shutdown had on women’s ability to report human rights abuses like those endured by the women in the footage, leading them to suffer without sufficient support, interference or justice.</div>
+    <div class="body-copy">The recording, which was discovered to have been taken on May 4, sparked global outrage. In light of the footage and ongoing shutdown, <a href="https://www.reuters.com/article/india-internet-women-idUSL8N39B0AR/" target="_blank" rel="noopener">Reuters</a> published an article detailing the impact the internet shutdown had on women’s ability to report human rights abuses like those endured by the women in the footage, leaving them without sufficient support, interference or justice.</div>
 
     <div class="body-copy">In response to the backlash, the BJP claimed that the shutdown was done to avoid rumors and disinformation, as well as to quash the growth of fighting.</div>
 
@@ -247,18 +258,19 @@
 
     <div class="body-copy">While the Digital India initiative promised connectivity across the nation, the internet shutdowns experienced by these three regions reflect a different reality for the affected areas.</div>
 
-    <div class="body-copy">J&K, Rajasthan and Manipur experience these shutdowns under different social and political circumstances, but the negative effects caused by the removal of internet and digital communication are widespread across each.</div>
+    <div class="body-copy">J&K, Rajasthan and Manipur experience these shutdowns under different social and political circumstances, but the negative effects caused by the removal of internet and digital communications are common across all three.</div>
 
-    <div class="body-copy">They have all dealt with hits to their economy, businesses, daily life and communications, as well as access to education and healthcare, all the while suffering additional human rights abuses.</div>
+    <div class="body-copy">They have all dealt with disruptions to their economies, businesses, daily life and communications, as well as access to education and healthcare, all the while suffering digital and human rights abuses.</div>
 
-    <div class="body-copy">As Digital India progresses and the internet continues to become an integral part of its society, these shutdowns turn into more harmful weapons with wide ranging consequences for those affected rather than tools for temporary restrictions.</div>
+    <div class="body-copy">As Digital India progresses and the internet continues to become a more integral part of society, these shutdowns increasingly function as weapons with wide-ranging consequences for the people affected.</div>
   </div>
 
   <div class="section">
     <div class="headline">Methodology</div>
-    <div class="info-box">
-      <p>The majority of the quantitative data used in this report comes from the Access Now STOP dataset, specifically its 2016-2025 combined tab, in its publicly available excel sheet. The “Individuals using the Internet (% by population) - India” dataset from the World Bank was also used in order to compare the growth of internet usage throughout the country to the increase in internet shutdowns. This data was analyzed in a jupyter notebook using a combination of python and pandas.</p>
-      <p>Articles included in this report were hyperlinked and the organizations who reported them have been cited throughout the text.</p>
+    <div class="methodology-box">
+      <p>The majority of the quantitative data used in this report comes from the Access Now STOP dataset between the years of 2016-2025. This data was analyzed in a jupyter notebook using a combination of python and pandas. When working with the STOP data in jupyter, the shutdowns with unknown end dates were marked as a day long, and those that are still ongoing were given an end date of ‘today’. This was done in an attempt to standardize the number of days recorded, and to not overestimate or downplay the number of shutdowns, which Access Now has said is likely lower than the true number of instances.</p>
+      <p>The “Individuals using the Internet (% by population) - India” dataset from the World Bank was also used to show the growth of internet usage throughout the country following Digital India’s launch in 2015. This was done to show how increasingly impactful these internet shutdowns are as more of the nation relies on it to operate in their daily lives and connect with the rest of their country.</p>
+      <p>Articles from various sources were also included in this report to provide context for the specific shutdowns discussed, as well as offer additional background on India and its shutdowns. All articles have been hyperlinked throughout the text.</p>
     </div>
   </div>
 
@@ -270,15 +282,15 @@
   const stateFacts = {
     overview: {
       title: 'India',
-      body: '<p>India is divided into 28 states and 8 union territories, with an estimated population of nearly <a href="https://worldpopulationreview.com/countries/india" target="_blank" rel="noopener">1.48 billion</a> people. Of the 907 shutdowns implemented between 2016 - 2025, 613 have taken place across Jammu and Kashmir, Rajasthan and Manipur.</p>'
+      body: '<p>India is divided into 28 states and 8 union territories, with an estimated population of nearly <a href="https://worldpopulationreview.com/countries/india" target="_blank" rel="noopener">1.48 billion</a> people. Of the 920 shutdowns recorded between 2016 - 2025, 620 have taken place across Jammu and Kashmir (J&K), Rajasthan and Manipur.</p>'
     },
     jk: {
       title: 'Jammu and Kashmir (J&K)',
       facts: [
-        ['Number of shutdowns', '462'],
+        ['Number of shutdowns', '468'],
         ['Location', 'Northern India'],
         ['Projected population', '<a href="https://statisticstimes.com/demographics/india/jammu-and-kashmir-population.php" target="_blank" rel="noopener">13.93 million people</a>'],
-        ["Share of India's shutdowns", '51%']
+        ["Share of India's shutdowns", '50.9%']
       ]
     },
     rj: {
@@ -287,16 +299,16 @@
         ['Number of shutdowns', '77'],
         ['Location', 'Northwest India'],
         ['Projected population', '<a href="https://statisticstimes.com/demographics/india/rajasthan-population.php" target="_blank" rel="noopener">83.88 million people</a>'],
-        ["Share of India's shutdowns", '~8%']
+        ["Share of India's shutdowns", '8.4%']
       ]
     },
     mn: {
       title: 'Manipur',
       facts: [
-        ['Number of shutdowns', '74'],
+        ['Number of shutdowns', '75'],
         ['Location', 'Northeast India'],
         ['Projected population', '<a href="https://statisticstimes.com/demographics/india/manipur-population.php" target="_blank" rel="noopener">3.29 million people</a>'],
-        ["Share of India's shutdowns", '~8%']
+        ["Share of India's shutdowns", '8.2%']
       ]
     }
   };
