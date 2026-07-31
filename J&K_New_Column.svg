@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="exportSvg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 600 454">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f19b65;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-5 {
+        stroke: #e7e7e7;
+      }
+
+      .cls-5, .cls-2, .cls-6 {
+        fill: none;
+      }
+
+      .cls-7 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-8 {
+        fill: #181818;
+        font-size: 14px;
+      }
+
+      .cls-8, .cls-9, .cls-10, .cls-11, .cls-12 {
+        isolation: isolate;
+      }
+
+      .cls-8, .cls-9, .cls-10, .cls-12 {
+        font-family: ArialMT, Arial;
+      }
+
+      .cls-9 {
+        fill: #888;
+        font-size: 11px;
+      }
+
+      .cls-10 {
+        fill: #747474;
+      }
+
+      .cls-10, .cls-13, .cls-12 {
+        font-size: 12px;
+      }
+
+      .cls-6 {
+        stroke: #181818;
+        stroke-linecap: square;
+      }
+
+      .cls-3 {
+        fill: #ccb9ab;
+      }
+
+      .cls-11 {
+        font-family: Arial-BoldMT, Arial;
+        font-size: 22px;
+        font-weight: 700;
+      }
+
+      .cls-11, .cls-13 {
+        fill: #000;
+      }
+
+      .cls-13 {
+        font-family: MyriadPro-Regular, 'Myriad Pro';
+      }
+
+      .cls-12 {
+        fill: #a2a2a2;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-2" y="79" width="600" height="342"/>
+    </clipPath>
+  </defs>
+  <rect class="cls-4" width="600" height="454"/>
+  <rect class="cls-2" width="600" height="454"/>
+  <text class="cls-11" transform="translate(1.89 26.62)"><tspan x="0" y="0">Jammu and Kashmir Leads India in Shutdown Frequency</tspan></text>
+  <text class="cls-8" transform="translate(2.26 49)"><tspan x="0" y="0">Shutdown frequency began rising in 2018, followed by one of the longest internet restrictions</tspan></text>
+  <text class="cls-8" transform="translate(2.9 66)"><tspan x="0" y="0">recorded in a democracy in 2019.</tspan></text>
+  <g class="cls-7">
+    <line class="cls-5" x1="19.74" y1="331.34" x2="600" y2="331.34"/>
+    <line class="cls-5" x1="19.74" y1="261.69" x2="600" y2="261.69"/>
+    <line class="cls-5" x1="19.74" y1="192.03" x2="600" y2="192.03"/>
+    <line class="cls-5" x1="19.74" y1="122.38" x2="600" y2="122.38"/>
+    <rect class="cls-3" x="27.67" y="366.17" width="36.9" height="34.83"/>
+    <rect class="cls-3" x="86.39" y="303.48" width="36.9" height="97.52"/>
+    <rect class="cls-3" x="144.95" y="150.24" width="36.9" height="250.76"/>
+    <rect class="cls-1" x="203.51" y="108.45" width="36.9" height="292.55"/>
+    <rect class="cls-3" x="262.06" y="125.86" width="36.9" height="275.14"/>
+    <rect class="cls-3" x="320.78" y="98" width="36.9" height="303"/>
+    <rect class="cls-3" x="379.34" y="233.83" width="36.9" height="167.17"/>
+    <rect class="cls-3" x="437.9" y="334.83" width="36.9" height="66.17"/>
+    <rect class="cls-3" x="496.46" y="362.69" width="36.9" height="38.31"/>
+    <rect class="cls-3" x="555.18" y="296.52" width="36.9" height="104.48"/>
+    <text class="cls-12" transform="translate(1.4 335.34)"><tspan x="0" y="0">20</tspan></text>
+    <text class="cls-12" transform="translate(1.4 265.69)"><tspan x="0" y="0">40</tspan></text>
+    <text class="cls-12" transform="translate(1.4 196.03)"><tspan x="0" y="0">60</tspan></text>
+    <text class="cls-12" transform="translate(1.4 126.38)"><tspan x="0" y="0">80</tspan></text>
+    <line class="cls-6" x1="600" y1="401" x2="19.74" y2="401"/>
+    <text class="cls-10" transform="translate(32.77 418)"><tspan x="0" y="0">2016</tspan></text>
+    <text class="cls-10" transform="translate(150.05 418)"><tspan x="0" y="0">2018</tspan></text>
+    <text class="cls-10" transform="translate(267.17 418)"><tspan x="0" y="0">2020</tspan></text>
+    <text class="cls-10" transform="translate(384.44 418)"><tspan x="0" y="0">2022</tspan></text>
+    <text class="cls-10" transform="translate(501.56 418)"><tspan x="0" y="0">2024</tspan></text>
+    <text class="cls-10" transform="translate(90.85 418.14)"><tspan x="0" y="0">2017</tspan></text>
+    <text class="cls-10" transform="translate(207.9 418)"><tspan x="0" y="0">2019</tspan></text>
+    <text class="cls-10" transform="translate(326.53 418)"><tspan x="0" y="0">2021</tspan></text>
+    <text class="cls-10" transform="translate(443.42 418)"><tspan x="0" y="0">2023</tspan></text>
+    <text class="cls-10" transform="translate(562.35 418.29)"><tspan x="0" y="0">2025</tspan></text>
+    <text class="cls-13" transform="translate(525.17 12.02)"><tspan x="0" y="0">Lorem ipsum</tspan></text>
+  </g>
+  <text class="cls-9" transform="translate(0 452)"><tspan x="0" y="0">Chart:</tspan></text>
+  <text class="cls-9" transform="translate(32.69 452)"><tspan x="0" y="0">Ava Gough</tspan></text>
+  <text class="cls-9" transform="translate(90.27 452)"><tspan x="0" y="0">•</tspan></text>
+  <text class="cls-9" transform="translate(96.86 452)"><tspan x="0" y="0">Source:</tspan></text>
+  <text class="cls-9" transform="translate(137.5 452)"><tspan x="0" y="0">Access Now</tspan></text>
+  <text class="cls-9" transform="translate(200.76 452)"><tspan x="0" y="0">•</tspan></text>
+  <text class="cls-9" transform="translate(207.35 452)"><tspan x="0" y="0">Created with</tspan></text>
+  <text class="cls-9" transform="translate(271.83 452)"><tspan x="0" y="0">Datawrapper</tspan></text>
+</svg>
